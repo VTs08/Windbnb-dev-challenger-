@@ -1,0 +1,32 @@
+@import url("css/header.css");
+@import url("css/cabecalho.css");
+
+:root {
+    --cor-fonte-principal: #333333;
+    --cor-borda-sombra: #F2F2F2;
+    --cinza-fonte: #BDBDBD;
+    --cinza-escuro:  #4F4F4F;
+    --cinza-claro: #828282;
+    --fonte-mulish: "Mulish";
+    --fonte-montserrat: "Montserrat";
+    --vermelho: #EB5757;
+}
+
+body {
+    font-size: 14px;
+}
+
+.rodape {
+    font-family: var(--fonte-montserrat);
+    text-align: center;
+    font-size: 14px;
+    color: var(--cinza-claro);
+    margin-bottom: 1rem;
+}
+
+.rodape em {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
